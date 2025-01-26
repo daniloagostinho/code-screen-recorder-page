@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screen Recorder - VS Code Extension</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(120deg, #1e1e2f, #2a2a50);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.3rem;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background: #ff4b5c;
+            color: white;
+            font-size: 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #e04353;
+        }
+
+        .video-container {
+            width: 100%;
+            max-width: 600px;
+            margin: 30px auto;
+        }
+
+        video {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .features {
+            margin-top: 50px;
+        }
+
+        .feature {
+            padding: 50px 20px;
+            background: white;
+            color: #333;
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .feature:nth-child(even) {
+            background: #f4f4f4;
+        }
+
+        .feature h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .feature p {
+            font-size: 1.2rem;
+            line-height: 1.5;
+        }
+
+        .feature img {
+            max-width: 100px;
+            margin-top: 15px;
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 1rem;
+            opacity: 0.8;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            p {
+                font-size: 1.1rem;
+            }
+
+            .btn {
+                font-size: 1.2rem;
+                padding: 12px 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Screen Recorder for VS Code</h1>
+        <p>Record your coding sessions directly from VS Code with ease. Capture your screen and audio seamlessly.</p>
+        <div class="video-container">
+            <video controls>
+                <source src="preview.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <a href="https://github.com/seu-usuario/screen-recorder" class="btn">Get it Now</a>
+        
+        <div class="features">
+            <div class="feature">
+                <h2>🎥 High-Quality Screen Recording</h2>
+                <p>Capture your screen with crystal-clear resolution and smooth frame rates.</p>
+                <img src="https://img.icons8.com/ios-filled/100/000000/video.png" alt="Recording Icon">
+            </div>
+            <div class="feature">
+                <h2>🎙️ Audio Recording Support</h2>
+                <p>Record both system and microphone audio effortlessly for better tutorials and demos.</p>
+                <img src="https://img.icons8.com/ios-filled/100/000000/microphone.png" alt="Audio Icon">
+            </div>
+            <div class="feature">
+                <h2>⚡ Easy Command Palette Access</h2>
+                <p>Start and stop recordings quickly via the VS Code Command Palette (`Ctrl + Shift + P`).</p>
+                <img src="https://img.icons8.com/ios-filled/100/000000/keyboard.png" alt="Shortcut Icon">
+            </div>
+            <div class="feature">
+                <h2>🖥️ Fully Integrated with VS Code</h2>
+                <p>Designed to work seamlessly within your workflow, without the need for external tools.</p>
+                <img src="https://img.icons8.com/ios-filled/100/000000/code.png" alt="VS Code Integration Icon">
+            </div>
+            <div class="feature">
+                <h2>🌎 Open Source & Free</h2>
+                <p>Completely free to use, modify, and improve. Join the community and contribute!</p>
+                <img src="https://img.icons8.com/ios-filled/100/000000/open-source.png" alt="Open Source Icon">
+            </div>
+        </div>
+        
+        <footer>
+            <p>Made with ❤️ for developers. Open Source & Free.</p>
+        </footer>
+    </div>
+</body>
+</html>
